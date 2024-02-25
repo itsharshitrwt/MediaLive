@@ -5,7 +5,7 @@ const Newsitem = ({title , desciption , src , url}) =>{
             <img src= {src?src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0aIm1NkTs4DsiHC9B8JJlxyl0_TrSvKQ7z5INMfOKqzEk11LIJm3I6qTZBXnnIwql5s&usqp=CAU"} style= {{height:"250px" , width:"400px"}} className="card-img-top" alt="..."/>
             <div className="card-body ">
                 <h5 className="card-title">{title.slice(0,50)}</h5>
-                <p className="card-text">{desciption? desciption.slice(0,90):"Latest news updates.\n Click below to watch live & detailed reports on current events."}</p>
+                <p className="card-text">{desciption? desciption.slice(0,90):"Latest news updates. Click below to watch live & detailed reports on current events."}</p>
                 <a href= {url} className="btn btn-primary bg-orange-500 mt-2 hover:bg-blue-600">See more</a>
             </div>
         </div>

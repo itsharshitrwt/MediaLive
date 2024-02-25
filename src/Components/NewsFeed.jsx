@@ -13,7 +13,8 @@ const NewsFeed = ({category}) =>{
     return(
             <div>
                 <h2 className="text-center text-5xl font-bold mb-4"><span className="text-white-500  bg-white hover:bg-blue-600 rounded-lg px-2 py-2 ">Top Articles</span></h2>
-                {articles.map((news , index)=>{
+                {articles && articles.length > 0 && articles.map((news , index)=>{
+                    console.log(news)
                     return <Newsitem key={index} title = {news.title} desciption ={news.desciption} src = {news.urlToImage} url = {news.url} />
                 })}
             </div>
