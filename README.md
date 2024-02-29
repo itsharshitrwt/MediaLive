@@ -19,8 +19,8 @@ Disclaimer: NewsAPI will not work if you run the project on a different environm
 To run the MediaLive news website locally on your machine, follow these steps:
 clone the repository
 bash
-Copy code
-git clone https://github.com/your-username/medialive.git
+Copy code , 
+git clone ,
 Navigate to the project directory:
 
 bash
